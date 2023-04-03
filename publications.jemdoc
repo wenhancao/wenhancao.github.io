@@ -1,0 +1,66 @@
+# jemdoc: menu{MENU}{publications.html}, addcss{jemdocCustom.css}
+# jemdoc: addcss{bibtex.css}
+# jemdoc: title{Yang Zheng - Publications}
+
+~~~
+A list of papers with citation counts on [https://scholar.google.co.uk/citations?user=hm5XrmoAAAAJ&hl=en Google Scholar Page]
+~~~
+
+If you cannot have access to the online version of a paper, 
+please feel free to email me ([zhengy@eng.ucsd.edu zhengy@eng.ucsd.edu]).
+
+== [publications_by_year.html \[Sorted by year\]]~~\M~~[publications_by_type.html \[Sorted by type\]] 
+
+== Thesis 
+. [phdthesis.html Chordal Sparsity in Control and Optimization of Large-scale Systems] (Ph.D. thesis, 2019 European PhD Award) \n
+  Yang Zheng, Department of Engineering Science, University of Oxford, 2019. (/[http://eeci2.l2s.supelec.fr/sites/eeci2.l2s.supelec.fr/files/winners.pdf The EECI PhD Award] is given annually in recognition of the best PhD thesis in Europe in the field of Control for Complex and Heterogeneous Systems/)
+ \n
+. [masterthesis.html Dynamic Modeling and Distributed Control of Vehicular Platoon under the Four-Component Framework] (Master thesis)\n
+ Yang Zheng, Department of Automotive Engineering, Tsinghua University, 2015
+
+== Preprints
+. [https://arxiv.org/abs/2211.16291 On Controller Reduction in Linear Quadratic Gaussian Control with Performance Bounds] \n
+   Zhaolin Ren, *Yang Zheng*, Maryam Fazel, Na Li \n
+   Preprint, 2022.
+. [https://arxiv.org/abs/2211.03697 Dimension Reduction for Efficient Data-Enabled Predictive Control] \n
+Kaixiang Zhang, *Yang Zheng*, Zhaojian Li \n
+Preprint, 2022.
+. [https://scholar.harvard.edu/files/runyu-cathy-zhang/files/sedlqr-relationship.pdf On the Relationship of Optimal State Feedback and Disturbance Response Controllers] \n
+Runyu (Cathy) Zhang, *Yang Zheng*, Weiyu Li, Na Li \n
+Preprint, 2022.
+. [https://arxiv.org/abs/2201.09598 On the Optimization Landscape of Dynamic Output Feedback Linear Quadratic Control] \n
+   Jingliang Duan, Wenhan Cao, *Yang Zheng*, and Lin Zhao \n
+   Preprint, 2022.
+. [https://arxiv.org/pdf/2203.10639.pdf DeeP-LCC: Data-EnablEd Predictive Leading Cruise Control in Mixed Traffic Flow] \n
+  Jiawei Wang, *Yang Zheng*, Keqiang Li, Qing Xu \n
+  Preprint, 2022.
+. [https://arxiv.org/abs/2204.03747 Implementation and Experimental Validation of Data-Driven Predictive Control for Dissipating Stop-and-Go Waves in Mixed Traffic] \n
+  Jiawei Wang, *Yang Zheng*, Jianghong Dong, Chaoyi Chen, Mengchi Cai, Keqiang Li and Qing Xu \n
+  Preprint, 2022. Code and video are available [https://github.com/soc-ucsd/DeeP-LCC here];\n
+
+== Selected publications
+. Yujie Tang\*, *Yang Zheng*\*, Na Li, [https://arxiv.org/abs/2102.04393 Analysis of the Optimization Landscape of Linear Quadratic Gaussian (LQG) Control], /Mathematical Programming/, accepted, 2023 (\* Equal contribution)
+ \n ([http://proceedings.mlr.press/v144/tang21a/tang21a.pdf A short version] was accepted at L4DC, 2021), 
+. *Yang Zheng*, Giovanni Fantuzzi, [https://arxiv.org/abs/2007.11410 Sum-of-squares Chordal Decomposition for Polynomial Matrix Inequalities], /Mathematical Programming/, 197, 71–108 (2023).
+. *Yang Zheng*, Aivar Sootla, Antonis Papachristodoulou. [https://arxiv.org/abs/1909.11076 Block Factor-width-two Matrices and Their Applications to Semidefinite and Sum-of-squares Optimization], /IEEE Transactions on Automatic Control/, vol. 68, no. 2, pp. 943-958, Feb. 2023. (regular paper)
+. *Yang Zheng*, Luca Furieri, Maryam Kamgarpour, Na Li.  [https://arxiv.org/abs/1909.12346 System-level, Input-output and New Parameterizations of Stabilizing Controllers, and Their Numerical Computation], /Automatica/,140 (2022): 110211. (regular paper)
+. *Yang Zheng*, Giovanni Fantuzzi, Antonis Papachristodoulou, [https://arxiv.org/abs/2107.02379 Chordal and factor-width decompositions for scalable semidefinite and polynomial optimization], /Annal Reviews in Control/, 2021 (invited paper).
+. *Yang Zheng*, Giovanni Fantuzzi, Antonis Papachristodoulou, Paul Goulart, and Andrew Wynn. [https://link.springer.com/content/pdf/10.1007/s10107-019-01366-3.pdf "Chordal decomposition in operator-splitting methods for sparse semidefinite programs."] 
+  /Mathematical Programming/ 180, no. 1 (2020): 489-532.
+. *Yang Zheng*, Luca Furieri, Antonis Papachristodoulou, Na Li, and Maryam Kamgarpour. [https://arxiv.org/abs/1907.06256 "On the equivalence of Youla, System-level and Input-output parameterizations."] /IEEE Transactions on Automatic Control/, 2020 (brief paper)
+. *Yang Zheng*, Richard P. Mason, and Antonis Papachristodoulou. [papers/Scalable_design_of_structured_controllers.pdf "Scalable design of structured controllers using chordal decomposition."] /IEEE Transactions on Automatic Control/ 63, no. 3 (2018): 752-767. (regular paper)
+. *Yang Zheng*, Giovanni Fantuzzi, and Antonis Papachristodoulou. [https://arxiv.org/abs/1708.04174 "Fast ADMM for sum-of-squares programs using partial orthogonality."]
+  /IEEE Transactions on Automatic Control/ 64, no. 9 (2019): 3869-3876. (brief paper)
+. *Yang Zheng*, Jiawei Wang, and Keqiang Li. [https://arxiv.org/abs/1812.09544 "Smoothing traffic flow via control of autonomous vehicles."]
+  /IEEE Internet of Things Journal/ 7.5 (2020): 3882-3896.
+. Luca Furieri, *Yang Zheng*, Antonis Papachristodoulou and Maryam Kamgarpour, [https://arxiv.org/abs/1906.06777 "Sparsity Invariance for Convex Design of Distributed Controllers,"] /IEEE Transactions on Control of Network Systems/, doi: 10.1109/TCNS.2020.3002429.
+
+== Technical Report
+. [https://arxiv.org/abs/2011.09929 Sample Complexity of Linear Quadratic Gaussian (LQG) Control for Output Feedback Systems] \n
+  *Yang Zheng*\*, Luca Furieri\*, Maryam Kamgarpour, Na Li \n
+  A short version was accepted at [http://proceedings.mlr.press/v144/zheng21b/zheng21b.pdf L4DC], 2021 (\* Equal contribution)
+. [papers/Glov_complexity.pdf Green Light Optimal Velocity Planning for Eco-driving: Computational Complexity and a Heuristic Algorithm] \n
+  *Yang Zheng*, Biao Xu, Shengbo Eben Li, Jianqiang Wang, and Keqiang Li \n
+  Extended technical report for [https://www.researchgate.net/publication/277639791_Complexity_Analysis_of_Green_Light_Optimal_Velocity_Problem_An_NP-complete_Result_for_Binary_Speed_Choices our conference paper] in the 14th Intelligent Transportation Systems Asia Pacific
+Forum, Nanjing, China, 2015
+

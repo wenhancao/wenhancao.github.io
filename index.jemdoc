@@ -1,0 +1,47 @@
+# jemdoc: menu{MENU}{index.html}, addcss{jemdocCustom.css}
+# jemdoc: title{Wenhan Cao - Tsinghua University}
+
+= Wenhan Cao
+
+~~~
+{}{img_left}{WenhanCao.jpg}{alt text}{216px}{244px}{index.html}
+
+[ Wenhan Cao]
+
+Ph.D. student \n
+[http://www.idlab-tsinghua.com/ Intelligent Driving Laboratory (iDLAB)] \n
+[http://www.svm.tsinghua.edu.cn/ School of Vehicle and Mobility] \n
+[https://www.tsinghua.edu.cn/ Tsinghua University] \n
+
+
+Office: LSK building A639, Tsinghua University, Beijing, China 100084\n
+Email: cwh19@mails.tsinghua.edu.cn & wenhan.cao@postrad.manchester.ac.uk\n
+Phone: +86 188 1175 6887 \n
+
+[https://scholar.google.com/citations?hl=en Google Scholar]
+\M [https://www.researchgate.net/profile/Wenhan-Cao ResearchGate] \n
+
+~~~
+
+
+== Working hours
+- Feel free to email me at any time.
+
+~~~
+I am currently seeking any possible academic exchange opportunities, with topics focusing on optimal control and optimal state estimation. \n
+Additionally, I am also looking for any potential industry collaboration opportunities. \n
+Check here: [contact-me.html Contact me!]
+~~~
+
+== Brief Biography
+
+I am a Ph.D. student in [http://www.svm.tsinghua.edu.cn/ School of Vehicle and Mobility] at the [https://www.tsinghua.edu.cn/ Tsinghua University] under the surpervision of [https://scholar.google.com/citations?user=Dxiw1K8AAAAJ&hl=en Prof. Shengbo Eben Li]. I am also cosupervised by [https://scholar.google.com/citations?user=hhm6ZzUAAAAJ&hl=en Prof. Chang Liu] and [https://people.iiis.tsinghua.edu.cn/~jychen/ Prof. Jianyu Chen]. I am now a visiting postgrad researcher in the [http://cse.ucsd.edu/ Department of Computer Science] at the
+[https://www.manchester.ac.uk/ Univeristy of Manchester] under the supervision of [https://panweihit.github.io/ Prof. Wei Pan]. 
+
+I am broadly interested in optimal filtering, optimal control, probabilistic inference, and their applications to autonomous vehicles.
+
+== Updates
+- 02/2023: Our paper: [https://arxiv.org/pdf/2201.09598.pdf On the Optimization Landscape of Dynamic Output Feedback Linear Quadratic Control] was submitted to IEEE TAC. 
+~~~
+[news.html More news]
+~~~

@@ -1,0 +1,78 @@
+# jemdoc: menu{MENU}{presentations.html}, addcss{jemdocCustom.css}
+# jemdoc: title{Yang Zheng - Presentations}
+
+= Selected Presentations
+
+== Posters
+- [talks/Poster_CDC2019.pdf  Large-scale Autonomy: Scalable Sparse Optimization and Distributed Control] 
+  -- 58th IEEE Conference on Decision and Control, Nice, France, Dec 2019. 
+  -- SEAS Seventh Annual Postdoc Recognition Event, Harvard University, Sep 2019.
+
+- [talks/poster_l4dc2021.pdf Sample Complexity of Linear Quadratic Gaussian (LQG) Control for OutputFeedback Systems] 
+  -- 3rd Annual Learning for Dynamics & Control Conference, Virtual, Jun 2021
+
+== Talks
+
+~~~
+    *Overview*
+~~~
+
+- [talks/Talk_ECE_seminar.pdf Learning, Optimization and Control for Large-scale Autonomous Systems]
+-- ECE 290 Seminar Series, Oct 22, 2021.
+
+~~~
+    *Scalable optimization*
+~~~
+
+- [talks/Talk-Argonne.pdf Scalable Semidefinite and Polynomial Optimization via Matrix Decomposition]
+-- LANS seminars series at Argonne National Lab, hosted by [http://pbalapra.github.io/ Dr. Prasanna Balaprakash], March 23, 2022. 
+
+-  [talks/Seminar_Math_UCSD.pdf Chordal Graphs, Semidefinite Optimization, and Sum-of-squares Matrices]
+ -- Optimization and Data Science Seminar (Department of Mathematics, UCSD), Hosted by Prof. Jiawang Nie, Oct 27, 2021. 
+
+- [talks/Talk_KTH_2019.pdf Scalable Semidefinite and Sum-of-square Optimization via Matrix Decomposition]
+  -- Seminar at Electrical Engineering and Computer Science, KTH, hosted by Prof. Karl Johansson, Dec 18, 2019
+
+-  [talks/ACC_2019_ssos.pdf Sparse sum-of-squares (SOS) optimization: A bridge between DSOS/SDSOS and SOS optimization for sparse polynomials] \n
+  -- American control conference, Philadelphia, July 2019 
+
+- [talks/MIT_lids_2018.pdf Chordal decomposition in sparse semidefinite optimization and sum-of-squares optimization]
+  -- Institute for Computational Engineering and Sciences, UT Austin, hosted by Prof. Ufuk Topcu, November 2018  
+  -- Department of Electrical \& Computer Engineering, Northeastern University, hosted by Prof. Mario Sznaier, July 2018 
+  -- Seminar talk at LIDS, MIT, hosted by Prof. Pablo Parrilo, July 2018
+  -- Group seminar, Harvard University, July 2018
+
+
+~~~
+*Distributed and model-free control*
+~~~
+
+- Analysis of the Optimization Landscape of Linear Quadratic Gaussian (LQG) Control 
+-- ISE Graduate Seminar Series, UIUC, hosted by [https://ise.illinois.edu/directory/profile/etesami1 Prof. Rasoul Etesami], March 04, 2022.  [talks/Talk-UIUC.pdf \[Slides\]], [https://mediaspace.illinois.edu/media/t/1_1ey5m4rf \[Video\]]. 
+-- Control Seminars, University of Michigan, hosted by [https://seiler.engin.umich.edu/ Prof. Peter Seiler], March 18, 2022 [talks/Talk-UMich.pdf  \[Slides\]], [https://umich.zoom.us/rec/play/gDOdwMaTLsLjkbqFLP_fvMLRK_WpkvP8vmpPFFGBOMLJWPsSsV1uHyQ6NIb9EFhGXvr2p717RDPYlwHV.S62afLk-wshidZjb?startTime=1647631229000&_x_zm_rtaid=t5hYmz-eRF-a4pyMi4VLzA.1647927548921.7981f8e13abdc634620fb0ddc6b4d7b8&_x_zm_rhtaid=345 \[Video\]].
+
+- [talks/Talk_Tsingha_1013.pdf Landscape Analysis and Sample Complexity of Linear Quadratic Gaussian Control]
+-- Seminar at Department of Automation, Tsinghua University, Hosted by Prof. Keyou You, Oct 13, 2021. 
+-- Invited talk at Northeastern University, Hosted by Prof. Tao Yang, Dec 02, 2021.
+
+- [talks/Talk_oxford_Dec_handout.pdf Convex Parameterization of Stabilizing Controllers and Its Application to Distributed Control]
+  -- Group seminar, University of Oxford, Dec. 2019.
+
+
+~~~
+*Connected vehicles and mixed traffic systems*
+~~~
+
+- Integrating Autonomy into Traffic Systems: Scalable Control and Optimization
+  -- ENAC Seminar Series, EPFL, Feb. 2020. [https://drive.google.com/open?id=1s7jAoxvAAHA85c7aQOiL-jAy9bsSfB6b Slides]
+  -- IEEE IV 2020 Workshop on Internet of Things in ITS: Opportunities and Challenges. [talks/IV_2020_zheng.pdf Slides]
+--  INTR 6800 Seminar, hosted by Prof. Huan Yu. Nov, 2021. [talks/Talk_HKUST_zheng.pdf Slides]
+
+- [talks/Talk_volkswagen_v2.pdf Smoothing Traffic Flow via Control of Autonomous Vehicles]
+   -- Seminar at the Center of Innovation Automation at Volkswagen, Wolfsburg. Dec. 2019
+   -- Group Seminar, Harvard University, October 2019
+
+- [talks\DMPC_Platoons.pdf Distributed Model Predictive Control for Heterogeneous Vehicle Platoons under Unidirectional Topologies] \n
+  -- The Control and Optimization Journal Club, Department of Engineering Science, Oxford. Nov. 2015
+  
+

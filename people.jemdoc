@@ -1,0 +1,63 @@
+# jemdoc: menu{MENU}{people.html}, addcss{jemdocCustom.css}
+# jemdoc: title{Yang Zheng - Presentations}
+
+= People
+
+
+
+== Group members
+- [https://hsmmoj.github.io/ Hesam Mojtahedi], Ph.D. (2022 Fall - present) 
+- [https://fengyiliao.github.io/ Feng-Yi Liao], MS (2021 Fall - present)
+- Haoxing Du, MS ([https://www.ece.ucsd.edu/undergraduate/SRIP SRIP program 2023])
+- Meihui Liu, UG ([https://www.ece.ucsd.edu/undergraduate/SRIP SRIP program 2023])
+
+- [https://www.aalto.fi/en/people/elham-abolfazli Elham Abolfazli], Ph.D. (2022 Fall, academic visitor)
+- [https://sites.google.com/view/vatsalyachaubey Vatsalya Chaubey], MS (2022 Fall)
+- [https://studyben.github.io/ Laiwei Wei], MS (2022 Summer and Fall)
+- [https://chenhaozhu.com/ Chenhao Zhu], UG (2022 Summer)
+- Xiao Ding, MS (2022 Summer)
+- [https://renoyyz233.github.io/ Yanzhi Yao], MS ([https://www.ece.ucsd.edu/undergraduate/SRIP SRIP program 2022])
+- [https://anishkulkarni9001.github.io/ Anish Kulkarni], UG ([https://www.ece.ucsd.edu/undergraduate/SRIP SRIP program 2022])
+- Haozhe Liu, MS ([https://www.ece.ucsd.edu/undergraduate/SRIP SRIP program 2021])
+- Stuart Boynton, UG ([https://www.ece.ucsd.edu/undergraduate/SRIP SRIP program 2021]) 
+
+
+== Student mentoring prior to UC San Diego
+
+at Imperial College London (co-supervision with [https://www.doc.ic.ac.uk/~alessio/ Prof. Alessio R. Lomuscio])
+- [https://github.com/GuanZihan Zihan Guan] (MS), 02\/2021 - 07/2021 \n
+Topic: Tight semidefinite optimization for neural network verification; see [https://github.com/soc-ucsd/verification our code on Github] 
+- [https://scholar.google.co.uk/citations?hl=en&user=aX7Q6IoAAAAJ Ben Batten] (DPhil), 11\/2020 - 07/2021 \n
+Topic: Geometric robustness of neural networks.
+
+
+at Harvard (co-supervision with [https://nali.seas.harvard.edu/ Prof. Na Li]) \n 
+- [https://green.harvard.edu/bio/ald%C3%ADs-elfarsd%C3%B3ttir Aldis Elfarsdottir] (UG)  02\/2019 – 06\/2019 \n 
+Topic: Model predictive building control using an extensive sensor network  *(Dean’s Award for her senior thesis)* \n
+Current position: Research fellow at Netherlands Institute for Space Research\n
+
+at Northeastern (co-supervision with [https://coe.northeastern.edu/people/sznaier-mario/ Prof. Mario Sznaier])
+- [https://scholar.google.com/citations?user=cyibVxgAAAAJ&hl=en Jared Miller] (Ph.D.) 08\/2018 – 08\/2020 \n
+Topic: Inner\/outer approximations in large-scale semidefinite optimization \n
+
+at Oxford (co-supervision with [http://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonis Prof. Antonis Papachristodoulou])
+- Matthew Newton (AIMS CDT student) 05\/2019 – 09\/2019 \n
+Topic: Distributed design for mixed traffic systems using ADMM \n
+
+- Adrian Radu (UG) 05\/2019 – 09\/2019 \n
+Topic: Dynamic controller design for stabilizing mixed traffic flow
+
+- Jonathan Pease (UG) 10\/2018 – 02\/2019 \n
+Topic: Fast computation for sum-of-squares optimization \n
+
+at Tsinghua (co-supervision with [http://www.dae.tsinghua.edu.cn/publish/daeen/4370/2011/20110420085553864426792/20110420085553864426792_.html Prof. Keqiang Li]) \n
+- [https://wangjw18.github.io/ Jiawei Wang] (Ph.D.) 04\/2018 – 07\/2021 \n
+Topic: Controllability and optimal control of mixed traffic systems *(Outstanding Undergraduate Thesis Award)* \n 
+
+- [https://www.researchgate.net/profile/Yougang_Bian Yougang Bian] (Ph.D.) 05\/2017 – 07\/2019 \n
+Topic: Distributed motion control of multi-vehicle systems \n
+Current position: Assistant professor at Hunan University, China \n
+
+- [https://www.researchgate.net/profile/Zhitao_Wang9 Zhitao Wang] (MS) 10\/2017 – 07\/2019 \n
+Topic: Parallel computation for optimal control of large-scale connected vehicles \n
+Current position: Research engineer at Huawei Technologies Co., Ltd.
