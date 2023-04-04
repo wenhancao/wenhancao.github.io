@@ -1,42 +1,13 @@
 # jemdoc: menu{MENU}{publications.html}, addcss{jemdocCustom.css}
 # jemdoc: addcss{bibtex.css}
-# jemdoc: title{Yang Zheng - Publications}
+# jemdoc: title{Wenhan Cao - Publications}
 
 ~~~
-A list of papers with citation counts on [https://scholar.google.co.uk/citations?user=hm5XrmoAAAAJ&hl=en Google Scholar Page]
+A list of papers with citation counts on [https://scholar.google.com/citations?hl=en Google Scholar Page]
 ~~~
 
 If you cannot have access to the online version of a paper, 
-please feel free to email me ([zhengy@eng.ucsd.edu zhengy@eng.ucsd.edu]).
-
-== [publications_by_year.html \[Sorted by year\]]~~\M~~[publications_by_type.html \[Sorted by type\]] 
-
-== Thesis 
-. [phdthesis.html Chordal Sparsity in Control and Optimization of Large-scale Systems] (Ph.D. thesis, 2019 European PhD Award) \n
-  Yang Zheng, Department of Engineering Science, University of Oxford, 2019. (/[http://eeci2.l2s.supelec.fr/sites/eeci2.l2s.supelec.fr/files/winners.pdf The EECI PhD Award] is given annually in recognition of the best PhD thesis in Europe in the field of Control for Complex and Heterogeneous Systems/)
- \n
-. [masterthesis.html Dynamic Modeling and Distributed Control of Vehicular Platoon under the Four-Component Framework] (Master thesis)\n
- Yang Zheng, Department of Automotive Engineering, Tsinghua University, 2015
-
-== Preprints
-. [https://arxiv.org/abs/2211.16291 On Controller Reduction in Linear Quadratic Gaussian Control with Performance Bounds] \n
-   Zhaolin Ren, *Yang Zheng*, Maryam Fazel, Na Li \n
-   Preprint, 2022.
-. [https://arxiv.org/abs/2211.03697 Dimension Reduction for Efficient Data-Enabled Predictive Control] \n
-Kaixiang Zhang, *Yang Zheng*, Zhaojian Li \n
-Preprint, 2022.
-. [https://scholar.harvard.edu/files/runyu-cathy-zhang/files/sedlqr-relationship.pdf On the Relationship of Optimal State Feedback and Disturbance Response Controllers] \n
-Runyu (Cathy) Zhang, *Yang Zheng*, Weiyu Li, Na Li \n
-Preprint, 2022.
-. [https://arxiv.org/abs/2201.09598 On the Optimization Landscape of Dynamic Output Feedback Linear Quadratic Control] \n
-   Jingliang Duan, Wenhan Cao, *Yang Zheng*, and Lin Zhao \n
-   Preprint, 2022.
-. [https://arxiv.org/pdf/2203.10639.pdf DeeP-LCC: Data-EnablEd Predictive Leading Cruise Control in Mixed Traffic Flow] \n
-  Jiawei Wang, *Yang Zheng*, Keqiang Li, Qing Xu \n
-  Preprint, 2022.
-. [https://arxiv.org/abs/2204.03747 Implementation and Experimental Validation of Data-Driven Predictive Control for Dissipating Stop-and-Go Waves in Mixed Traffic] \n
-  Jiawei Wang, *Yang Zheng*, Jianghong Dong, Chaoyi Chen, Mengchi Cai, Keqiang Li and Qing Xu \n
-  Preprint, 2022. Code and video are available [https://github.com/soc-ucsd/DeeP-LCC here];\n
+please feel free to email me ([cwh19@mails.tsinghua.edu.cn]).
 
 == Selected publications
 . Yujie Tang\*, *Yang Zheng*\*, Na Li, [https://arxiv.org/abs/2102.04393 Analysis of the Optimization Landscape of Linear Quadratic Gaussian (LQG) Control], /Mathematical Programming/, accepted, 2023 (\* Equal contribution)
@@ -55,12 +26,24 @@ Preprint, 2022.
   /IEEE Internet of Things Journal/ 7.5 (2020): 3882-3896.
 . Luca Furieri, *Yang Zheng*, Antonis Papachristodoulou and Maryam Kamgarpour, [https://arxiv.org/abs/1906.06777 "Sparsity Invariance for Convex Design of Distributed Controllers,"] /IEEE Transactions on Control of Network Systems/, doi: 10.1109/TCNS.2020.3002429.
 
-== Technical Report
-. [https://arxiv.org/abs/2011.09929 Sample Complexity of Linear Quadratic Gaussian (LQG) Control for Output Feedback Systems] \n
-  *Yang Zheng*\*, Luca Furieri\*, Maryam Kamgarpour, Na Li \n
-  A short version was accepted at [http://proceedings.mlr.press/v144/zheng21b/zheng21b.pdf L4DC], 2021 (\* Equal contribution)
-. [papers/Glov_complexity.pdf Green Light Optimal Velocity Planning for Eco-driving: Computational Complexity and a Heuristic Algorithm] \n
-  *Yang Zheng*, Biao Xu, Shengbo Eben Li, Jianqiang Wang, and Keqiang Li \n
-  Extended technical report for [https://www.researchgate.net/publication/277639791_Complexity_Analysis_of_Green_Light_Optimal_Velocity_Problem_An_NP-complete_Result_for_Binary_Speed_Choices our conference paper] in the 14th Intelligent Transportation Systems Asia Pacific
-Forum, Nanjing, China, 2015
 
+== Journals
+. Jingliang Duan, Wenhan Cao, Yang zheng, Lin Zhao, 
+
+== Conferences
+
+. E. Ghadimi, A. Teixeira, and M. Johansson, \" Guaranteed asymptotic performance of ADMM for distributed optimization\", Submitted, 2015.
+. E. Ghadimi, H. R. Feyzmahdavian, and M. Johansson \" Global convergence of the Heavy-ball method for convex optimization\", In ECC'15: European Control Conference, Austria, 2015.
+. E. Ghadimi, A. Teixeira, M. Rabbat, and M. Johansson, \" The ADMM algorithm for distributed averaging: Convergence rates and optimal parameter selection\", In Asilomar'14: Proceedings of the 48th Asilomar Conference on Signals, Systems and Computers, 2014. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \]
+. A. Teixeira, E. Ghadimi, I. Shames, H. Sandberg, and M. Johansson \" Optimal scaling of the ADMM algorithm for distributed quadratic programming\", In CDC'13: IEEE Conference on Decision and Control, 2013. 
+. E. Ghadimi, A. Teixeira, I. Shames, and M. Johansson, \" On the optimal step-size selection for the alternating direction method of multipliers\", In Necsys'12: Proceeding of IFAC Workshop on Estimation and Control of Networked Systems, 2012. *Best Student Paper Award Finalist*
+. E. Ghadimi, O. Landsiedel, P. Soldati, and M. Johansson \" A metric for opportunistic routing in duty cycled wireless sensor networks\", In SECON'12: Proceedings of the 9th IEEE Conference on Sensor, Mesh and Ad Hoc Communications and Networks, 2012. 
+. O. Landsiedel, E. Ghadimi, S. Duquennoy, and M. Johansson \" Low power, low delay: opportunistic routing meets duty cycling\", In IPSN'12: Proceedings of the 11th ACM/IEEE International Conference on Information Processing in Sensor Networks, 2012. 
+. E. Ghadimi, P. Soldati, F. Osterlind, H. Zhang, and M. Johansson \" Hidden terminal-aware contention resolution with an optimal distribution\", In MASS'11: Proceedings of the 8th IEEE International Conference on Mobile Ad-hoc and Sensor Systems, 2011. 
+. E. Ghadimi, M. Johansson, and I. Shames \" Accelerated gradient methods for networked optimization\", In ACC'11: Proceedings of American Control Conference, 2011. 
+. J. Araujo, E. Ghadimi, and O. Landsiedel, \" Random-Access medium access control in wireless sensor networks: what's the best choice?\", In ADHOC'11: Proceedings of the 10th Scandinavian Workshop on Wireless Ad-hocNetworks, 2011. 
+. M. Larsson, J. Lindberg, J. Lycke, K. Hansson, A. Khakulov, E. Ringh, F. Svensson, I. Tjernberg, A. Alam, J. ArauÌjo, F. Farokhi, E. Ghadimi, A. Teixeira, D. V. Dimarogonas, and K. H. Johansson. \" Towards an indoor testbed for mobile networked control systems\", In Proceedings of the First Workshop on Research, Development and Education on Unmanned Aerial Systems, 2011.
+. E. Ghadimi, A. Khonsari, M. S. Talebi, and N. Yazdani, \" Loss Aware Geographic Routing for Unreliable Wireless Sensor Networks\". In CCNC'09: Proceedings of IEEE conference on Consumer Communication, 2009. 
+. E. Ghadimi, N. Yazdani, and A. Khonsari: \" GWRR: greedy weighted region routing in wireless sensor networks\". In ICPADS'08: Proceeding of 14th IEEE Conference on Parallel and Distributed Systems, 2008. 
+. E. Ghadimi, N. Yazdani, and A. Safilian. \" Geographic routing in presence of the loss in wireless sensor networks\". In IST'08: Proceeding of 4th International Symposium of Telecommunication, 2008. 
+. A. Abbasi, E. Ghadimi, A. Khonsari, N. Yazdani, and M. Ould-Khaoua: \" A distributed clustering algorithm for fault-tolerant event region detection in wireless sensor networks\". ISPA'07: Proceeding of the 5th International Symposium on Parallel and Distributed Processing and Applications. 
