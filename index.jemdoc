@@ -39,7 +39,8 @@ I also receive co-supervision from Prof. [https://scholar.google.com/citations?u
 My research interests are optimal control and estimation using Bayesian machine learning, with applications to autonomous vehicles and robots.
 
 == Updates
-- 05/2024: Our paper: [ Computation-Aware Learning for Stable Control with Gaussian Process] is accepted by RSS 2024! The camera-ready version and the project website will come soon.
+- 08/2024: Our paper: [https://ieeexplore.ieee.org/document/10643343 Convolutional Unscented Kalman Filter for Multi-Object Tracking with Outliers] is accepted by IEEE TIV.
+- 05/2024: Our paper: [https://roboticsconference.org/program/papers/4/ Computation-Aware Learning for Stable Control with Gaussian Process] is accepted by RSS 2024!
 - 05/2024: I am happy to attend [https://iclr.cc/ ICLR2024] in Vienna and meet all the excellent researchers. Here is our [https://iclr.cc/virtual/2024/poster/17455 poster].
 - 04/2024: I am happy to attend the [https://probnumschool.org/pages/home.html Probnum Spring School] in Southampton and meet all the excellent researchers.
 - 02/2024: Invited talk on [https://arxiv.org/abs/2404.00481 Convolutional Bayesian Filtering] at the Department of Mathematical Sciences, Tsinghua University, hosted by Prof. [https://homepages.math.uic.edu/~yau/ Stephen Shing-Toung Yau].
