@@ -1,0 +1,49 @@
+# jemdoc: menu{MENU}{publications.html}, addcss{jemdocCustom.css}
+# jemdoc: addcss{bibtex.css}
+# jemdoc: title{Wenhan Cao - Publications}
+
+~~~
+A list of papers with citation counts on [https://scholar.google.com/citations?hl=en Google Scholar Page]
+~~~
+
+If you cannot have access to the online version of a paper, 
+please feel free to email me ([cwh19@mails.tsinghua.edu.cn]).
+
+== Selected publications
+. Yujie Tang\*, *Yang Zheng*\*, Na Li, [https://arxiv.org/abs/2102.04393 Analysis of the Optimization Landscape of Linear Quadratic Gaussian (LQG) Control], /Mathematical Programming/, accepted, 2023 (\* Equal contribution)
+ \n ([http://proceedings.mlr.press/v144/tang21a/tang21a.pdf A short version] was accepted at L4DC, 2021), 
+. *Yang Zheng*, Giovanni Fantuzzi, [https://arxiv.org/abs/2007.11410 Sum-of-squares Chordal Decomposition for Polynomial Matrix Inequalities], /Mathematical Programming/, 197, 71–108 (2023).
+. *Yang Zheng*, Aivar Sootla, Antonis Papachristodoulou. [https://arxiv.org/abs/1909.11076 Block Factor-width-two Matrices and Their Applications to Semidefinite and Sum-of-squares Optimization], /IEEE Transactions on Automatic Control/, vol. 68, no. 2, pp. 943-958, Feb. 2023. (regular paper)
+. *Yang Zheng*, Luca Furieri, Maryam Kamgarpour, Na Li.  [https://arxiv.org/abs/1909.12346 System-level, Input-output and New Parameterizations of Stabilizing Controllers, and Their Numerical Computation], /Automatica/,140 (2022): 110211. (regular paper)
+. *Yang Zheng*, Giovanni Fantuzzi, Antonis Papachristodoulou, [https://arxiv.org/abs/2107.02379 Chordal and factor-width decompositions for scalable semidefinite and polynomial optimization], /Annal Reviews in Control/, 2021 (invited paper).
+. *Yang Zheng*, Giovanni Fantuzzi, Antonis Papachristodoulou, Paul Goulart, and Andrew Wynn. [https://link.springer.com/content/pdf/10.1007/s10107-019-01366-3.pdf "Chordal decomposition in operator-splitting methods for sparse semidefinite programs."] 
+  /Mathematical Programming/ 180, no. 1 (2020): 489-532.
+. *Yang Zheng*, Luca Furieri, Antonis Papachristodoulou, Na Li, and Maryam Kamgarpour. [https://arxiv.org/abs/1907.06256 "On the equivalence of Youla, System-level and Input-output parameterizations."] /IEEE Transactions on Automatic Control/, 2020 (brief paper)
+. *Yang Zheng*, Richard P. Mason, and Antonis Papachristodoulou. [papers/Scalable_design_of_structured_controllers.pdf "Scalable design of structured controllers using chordal decomposition."] /IEEE Transactions on Automatic Control/ 63, no. 3 (2018): 752-767. (regular paper)
+. *Yang Zheng*, Giovanni Fantuzzi, and Antonis Papachristodoulou. [https://arxiv.org/abs/1708.04174 "Fast ADMM for sum-of-squares programs using partial orthogonality."]
+  /IEEE Transactions on Automatic Control/ 64, no. 9 (2019): 3869-3876. (brief paper)
+. *Yang Zheng*, Jiawei Wang, and Keqiang Li. [https://arxiv.org/abs/1812.09544 "Smoothing traffic flow via control of autonomous vehicles."]
+  /IEEE Internet of Things Journal/ 7.5 (2020): 3882-3896.
+. Luca Furieri, *Yang Zheng*, Antonis Papachristodoulou and Maryam Kamgarpour, [https://arxiv.org/abs/1906.06777 "Sparsity Invariance for Convex Design of Distributed Controllers,"] /IEEE Transactions on Control of Network Systems/, doi: 10.1109/TCNS.2020.3002429.
+
+
+== Journals
+. Jingliang Duan, Wenhan Cao, Yang zheng, Lin Zhao, 
+
+== Conferences
+
+. E. Ghadimi, A. Teixeira, and M. Johansson, \" Guaranteed asymptotic performance of ADMM for distributed optimization\", Submitted, 2015.
+. E. Ghadimi, H. R. Feyzmahdavian, and M. Johansson \" Global convergence of the Heavy-ball method for convex optimization\", In ECC'15: European Control Conference, Austria, 2015.
+. E. Ghadimi, A. Teixeira, M. Rabbat, and M. Johansson, \" The ADMM algorithm for distributed averaging: Convergence rates and optimal parameter selection\", In Asilomar'14: Proceedings of the 48th Asilomar Conference on Signals, Systems and Computers, 2014. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \]
+. A. Teixeira, E. Ghadimi, I. Shames, H. Sandberg, and M. Johansson \" Optimal scaling of the ADMM algorithm for distributed quadratic programming\", In CDC'13: IEEE Conference on Decision and Control, 2013. 
+. E. Ghadimi, A. Teixeira, I. Shames, and M. Johansson, \" On the optimal step-size selection for the alternating direction method of multipliers\", In Necsys'12: Proceeding of IFAC Workshop on Estimation and Control of Networked Systems, 2012. *Best Student Paper Award Finalist*
+. E. Ghadimi, O. Landsiedel, P. Soldati, and M. Johansson \" A metric for opportunistic routing in duty cycled wireless sensor networks\", In SECON'12: Proceedings of the 9th IEEE Conference on Sensor, Mesh and Ad Hoc Communications and Networks, 2012. 
+. O. Landsiedel, E. Ghadimi, S. Duquennoy, and M. Johansson \" Low power, low delay: opportunistic routing meets duty cycling\", In IPSN'12: Proceedings of the 11th ACM/IEEE International Conference on Information Processing in Sensor Networks, 2012. 
+. E. Ghadimi, P. Soldati, F. Osterlind, H. Zhang, and M. Johansson \" Hidden terminal-aware contention resolution with an optimal distribution\", In MASS'11: Proceedings of the 8th IEEE International Conference on Mobile Ad-hoc and Sensor Systems, 2011. 
+. E. Ghadimi, M. Johansson, and I. Shames \" Accelerated gradient methods for networked optimization\", In ACC'11: Proceedings of American Control Conference, 2011. 
+. J. Araujo, E. Ghadimi, and O. Landsiedel, \" Random-Access medium access control in wireless sensor networks: what's the best choice?\", In ADHOC'11: Proceedings of the 10th Scandinavian Workshop on Wireless Ad-hocNetworks, 2011. 
+. M. Larsson, J. Lindberg, J. Lycke, K. Hansson, A. Khakulov, E. Ringh, F. Svensson, I. Tjernberg, A. Alam, J. ArauÌjo, F. Farokhi, E. Ghadimi, A. Teixeira, D. V. Dimarogonas, and K. H. Johansson. \" Towards an indoor testbed for mobile networked control systems\", In Proceedings of the First Workshop on Research, Development and Education on Unmanned Aerial Systems, 2011.
+. E. Ghadimi, A. Khonsari, M. S. Talebi, and N. Yazdani, \" Loss Aware Geographic Routing for Unreliable Wireless Sensor Networks\". In CCNC'09: Proceedings of IEEE conference on Consumer Communication, 2009. 
+. E. Ghadimi, N. Yazdani, and A. Khonsari: \" GWRR: greedy weighted region routing in wireless sensor networks\". In ICPADS'08: Proceeding of 14th IEEE Conference on Parallel and Distributed Systems, 2008. 
+. E. Ghadimi, N. Yazdani, and A. Safilian. \" Geographic routing in presence of the loss in wireless sensor networks\". In IST'08: Proceeding of 4th International Symposium of Telecommunication, 2008. 
+. A. Abbasi, E. Ghadimi, A. Khonsari, N. Yazdani, and M. Ould-Khaoua: \" A distributed clustering algorithm for fault-tolerant event region detection in wireless sensor networks\". ISPA'07: Proceeding of the 5th International Symposium on Parallel and Distributed Processing and Applications. 
