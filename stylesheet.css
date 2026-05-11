@@ -89,6 +89,35 @@ tr{
   line-height: 1.4;
 }
 
+.language-switch {
+  width: 1050px;
+  margin: 18px auto 0;
+  text-align: right;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 15px;
+  color: #777777;
+}
+
+.language-switch button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #2470ce;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.language-switch button[aria-pressed="true"] {
+  color: #333333;
+  font-weight: 700;
+  cursor: default;
+}
+
+.language-switch button:not([aria-pressed="true"]):hover {
+  text-decoration: underline;
+}
+
 p{
   font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;

@@ -17,6 +17,12 @@
 
 
 <body>
+    <div class="language-switch" aria-label="Language switch">
+        <button type="button" data-lang-button="en" aria-pressed="true">English</button>
+        <span>/</span>
+        <button type="button" data-lang-button="zh" aria-pressed="false">中文</button>
+    </div>
+
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
     <tr>
     <td>
@@ -26,7 +32,7 @@
                 <p style="text-align:center">
                     <name>Wenhan (Winston) Cao</name>
                 </p>
-                <p>
+                <p data-i18n-html="bio">
                     <!-- I am currently a research fellow in the
                     <a href="https://cde.nus.edu.sg/ece/" target="_blank" rel="noopener">
                     Department of Electrical and Computer Engineering in National University of Singapore
@@ -34,6 +40,9 @@
                     working with Prof.
                     <a href="https://sites.google.com/view/lzhao" target="_blank" rel="noopener">Lin Zhao</a>. -->
                   
+                    I am an <a href="https://www.schmidtsciences.org/ai-in-science/" target="_blank" rel="noopener">Eric and Wendy Schmidt AI in Science Postdoctoral Fellow</a> in the
+                    <a href="https://cde.nus.edu.sg/ece/" target="_blank" rel="noopener">Department of Electrical and Computer Engineering</a>,
+                    <a href="https://nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>.
                     I received my Ph.D. degree in 2025 from the
                     <a href="http://www.svm.tsinghua.edu.cn/" target="_blank" rel="noopener">School of Vehicle and Mobility</a>,
                     <a href="https://www.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsinghua University</a>,
@@ -49,16 +58,12 @@
                     working with Prof. <a href="https://panweihit.github.io/" target="_blank" rel="noopener">Wei Pan</a>,
                     and at the Technical University of Munich, working with Prof.
                     <a href="https://www.ce.cit.tum.de/en/itr/hirche/" target="_blank" rel="noopener">Sandra Hirche</a>.
+                </p>
                 
                 <br>
                 <br>
 
-                <strong>I am actively seeking opportunities for postdoc position!</strong>
-                
-                <br>
-                <br>
-
-                <p style="text-align:center">
+                <p style="text-align:center" data-i18n-html="profileLinks">
                     <a href="mailto:wenhan_cao@outlook.com">Email</a> &nbsp;/&nbsp;
                     <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
                     <a href="https://scholar.google.com/citations?user=43xAy7MAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
@@ -66,7 +71,6 @@
                     <a href="https://www.researchgate.net/profile/Wenhan-Cao?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19">ResearchGate</a>
 
                   </p>
-                </p>
             </td>
             <br>
             <!-- <td width="20%" valign="right" style="padding-left: 30px;">
@@ -92,14 +96,14 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
         <td>
-            <h2> Research Interests </h2>
+            <h2 data-i18n="researchTitle"> Research Interests </h2>
             <!-- <br> -->
             <!-- <hr> -->
     
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="100%" valign="middle">
-                        <p>
+                        <p data-i18n-html="researchText">
                             My research lies at the intersection of learning and control, aiming to develop trustworthy autonomous systems. Simply put, I explore how AI can improve the performance of control systems, while leveraging control theory to ensure the reliability and predictability of AI-driven systems.
                             <!-- <ul>
                                 <li><strong>In-context robot learning</strong> with few-shot demonstrations and robot foundation models.</li>
@@ -120,13 +124,13 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
         <td>
-            <h2> News </h2>
+            <h2 data-i18n="newsTitle"> News </h2>
             <!-- <hr> -->
     
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="100%" valign="middle">
-                        <p>
+                        <p data-i18n-html="newsItems">
                             05/2026 - I am honored to be selected for the <a href="https://www.schmidtsciences.org/ai-in-science/" target="_blank" rel="noopener">Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship</a>.
                             <br>
                             03/2026 - Our paper: <a href="https://arxiv.org/abs/2410.15832">Nonlinear Bayesian Filtering with Natural Gradient Gaussian Approximation</a> has been accepted by IEEE TPAMI! Thanks to all the co-authors!
@@ -167,9 +171,9 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
     <tr>
     <td>
-        <h2> Selected Publications (* denotes equal contribution) </h2>
+        <h2 data-i18n="publicationsTitle"> Selected Publications (* denotes equal contribution) </h2>
         <!-- <hr> -->
-        <p>
+        <p data-i18n-html="publicationsIntro">
             A full list of publications can be found in <a href="data/Publication_list_by_type.pdf">Publication List</a> or <a href="https://scholar.google.com/citations?hl=en&user=43xAy7MAAAAJ">Google Scholar Page</a>.
         </p>
 
@@ -251,7 +255,7 @@
                     <strong>Wenhan Cao</strong>,
                     <a href="https://panweihit.github.io/"><author>Wei Pan</author></a>
                     <br>
-                    International Conference on Learning Representations (<strong>ICLR</strong>), 2024 <strong style="color:#B908C5">(spotlight)</strong><br>
+                    International Conference on Learning Representations (<strong>ICLR</strong>), 2024 <strong style="color:#B908C5" data-i18n="spotlightTag">(spotlight)</strong><br>
                     <a href="https://openreview.net/forum?id=xJEd8PkdNz">[paper]</a>
                     <a href="https://drive.google.com/file/d/16z45LOEU8xaPaEoFFIc2hfIneyXCCio_/view?usp=sharing">[poster]</a>
                     <a href="https://github.com/anonymity678/Computation-Impacts-Control">[code]</a>
@@ -479,7 +483,7 @@
                     <a href="https://scholar.google.com/citations?user=Dxiw1K8AAAAJ&hl=en"><author>Shengbo Eben Li</author></a>,
                     <a href="https://github.com/TobiasLv"><author>Yao Lyu</author></a>                    
                     <br>
-                    Modeling, Estimation and Control Conference (<strong>MECC</strong>), 2021 <strong style="color:#B908C5">(Student Best Paper Finalist)</strong>
+                    Modeling, Estimation and Control Conference (<strong>MECC</strong>), 2021 <strong style="color:#B908C5" data-i18n="bestPaperFinalistTag">(Student Best Paper Finalist)</strong>
                     <br>
                     <a href="https://www.sciencedirect.com/science/article/pii/S240589632102245X">[paper]</a>
                     <a href="https://drive.google.com/file/d/1ZXlsONIwnuPpb4IFkeCRYL7clDx7hTor/view?usp=sharing">[slides]</a>
@@ -521,7 +525,7 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
         <td>
-            <h2> Selected Preprints </h2>
+            <h2 data-i18n="preprintsTitle"> Selected Preprints </h2>
             <!-- <hr> -->
         <br>
         
@@ -554,7 +558,7 @@
                     <a href="https://panweihit.github.io/"><author>Wei Pan</author></a>,
                     <a href="http://www2.coe.pku.edu.cn/faculty/liuchang/author/chang-liu-%E5%88%98%E7%95%85/index.html"><author>Chang Liu</author></a>
                     <br>
-                    Under Review in IEEE Transactions on Robotics (<strong>T-RO</strong>)
+                    <span data-i18n-html="coinsStatus">Under Review in IEEE Transactions on Robotics (<strong>T-RO</strong>)</span>
                     <br>
                     <a href="https://arxiv.org/pdf/2601.03956">[paper]</a>
                     <a href="https://coins-internav.github.io/">[project]</a>
@@ -589,7 +593,7 @@
                     <author>Yuqi Shi</author>,
                     <a href="https://sites.google.com/view/lzhao"><author>Lin Zhao</author></a>
                     <br>
-                    Under Review in Robotics: Science and Systems (<strong>RSS</strong>), 2026
+                    <span data-i18n-html="marsStatus">Under Review in Robotics: Science and Systems (<strong>RSS</strong>), 2026</span>
                     </papertext>
                 </td>
             </tr>
@@ -615,7 +619,7 @@
                     <a href="https://homepages.math.uic.edu/~yau/"><author>Stephen S.-T. Yau</author></a>,
                     <a href="https://scholar.google.com/citations?user=Dxiw1K8AAAAJ&hl=en"><author>Shengbo Eben Li</author></a>               
                     <br>
-                    Under Review in IEEE Transactions on Automatic Control (<strong>TAC</strong>)
+                    <span data-i18n-html="convbfStatus">Under Review in IEEE Transactions on Automatic Control (<strong>TAC</strong>)</span>
                     <br>
                     <a href="https://arxiv.org/abs/2404.00481">[paper]</a>
                     <a href="https://drive.google.com/file/d/1vuGl7mLdf4Muuaur2buQaIbgiV8pHmTu/view">[slides]</a>
@@ -630,7 +634,7 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
             <tr>
             <td>
-                <h2> Projects </h2>
+                <h2 data-i18n="projectsTitle"> Projects </h2>
                 <!-- <hr> -->
         
         <br>
@@ -644,9 +648,9 @@
                 </td>
                 <td style="width:75%; vertical-align:middle">
                     <papertext>
-                        <papertitle>Networked Modeling and Cooperative Control of Connected and Automated Electric Vehicles</papertitle>
+                        <papertitle data-i18n="projectCavTitle">Networked Modeling and Cooperative Control of Connected and Automated Electric Vehicles</papertitle>
                     <br>
-                    <strong>Project Leader</strong>, Nov 2020
+                    <strong data-i18n="projectLeader">Project Leader</strong>, Nov 2020
                 </td>
             </tr>
         </table>
@@ -662,9 +666,9 @@
                 </td>
                 <td style="width:75%; vertical-align:middle">
                     <papertext>
-                        <papertitle>Reinforcement Learning for Autonomous Driving Decision and Control on Open Roads</papertitle>
+                        <papertitle data-i18n="projectRladTitle">Reinforcement Learning for Autonomous Driving Decision and Control on Open Roads</papertitle>
                     <br>
-                    <strong>Project Member</strong>, May 2024
+                    <strong data-i18n="projectMember">Project Member</strong>, May 2024
                 </td>
             </tr>
         </table>
@@ -680,11 +684,11 @@
                 </td>
                 <td style="width:75%; vertical-align:middle">
                     <papertext>
-                        <papertitle>State Estimation for Warehouse Automated Logistics Vehicles</papertitle>
+                        <papertitle data-i18n="projectGeekTitle">State Estimation for Warehouse Automated Logistics Vehicles</papertitle>
                     <br>
-                    <strong>Project Leader</strong>, May 2022
+                    <strong data-i18n="projectLeader">Project Leader</strong>, May 2022
                     <br>
-                    Supported by <a href="https://www.geekplus.com/en/">Geek+</a> company, the technology has already been implemented in the company's product lineup
+                    <span data-i18n-html="geekSupport">Supported by <a href="https://www.geekplus.com/en/">Geek+</a> company, the technology has already been implemented in the company's product lineup</span>
                 </td>
             </tr>
         </table>
@@ -694,7 +698,7 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
         <td>
-            <h2> Software </h2>
+            <h2 data-i18n="softwareTitle"> Software </h2>
             <!-- <hr> -->
     
     <br>
@@ -710,9 +714,9 @@
                     <papertext>
                         <papertitle>General Optimal control Problems Solver (GOPS)</papertitle>
                     <br>
-                    GOPS is an easy-to-use reinforcement learning (RL) solver package designed to build real-time, high performance controllers for industrial applications. 
+                    <span data-i18n="gopsDesc">GOPS is an easy-to-use reinforcement learning (RL) solver package designed to build real-time, high performance controllers for industrial applications.</span>
                     <br>
-                    I was primarily responsible for the core design and implementation of the <strong>trainer</strong>, <strong>sampler</strong>, and <strong>buffer</strong> modules.
+                    <span data-i18n-html="gopsRole">I was primarily responsible for the core design and implementation of the <strong>trainer</strong>, <strong>sampler</strong>, and <strong>buffer</strong> modules.</span>
                     <br>
                     <a href="https://gops.readthedocs.io/en/latest/index.html">[docs]</a>
                     <a href="https://github.com/Intelligent-Driving-Laboratory/GOPS">[code]</a>
@@ -726,13 +730,13 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
         <td>
-            <h2> Awards </h2>
+            <h2 data-i18n="awardsTitle"> Awards </h2>
             <!-- <hr> -->
     
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="100%" valign="middle">
-                        <p>
+                        <p data-i18n-html="awardsItems">
                             Study Abroad Fund from Tsinghua University 2022
                             <br>
                             Student Best Paper Finalist of Modeling, Estimation and Control Conference 2021
@@ -753,13 +757,13 @@
     <table width="1050" border="0" align="center" cellspacing="0" cellpadding="0">
         <tr>
         <td>
-            <h2> Services </h2>
+            <h2 data-i18n="servicesTitle"> Services </h2>
             <!-- <hr> -->
     
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="100%" valign="middle">
-                        <p>
+                        <p data-i18n-html="servicesItems">
                             Conference Reviewer: CDC, ACC, L4DC, ICLR, AAMAS & IFAC NMPC
                             <br>
                             Journal Reviewer: T-RO, TAC, Automatica, RA-L, T-ITS, T-ASE & TNNLS
@@ -778,7 +782,7 @@
     
     <div style="text-align:center; margin:20px 0;">
         <div style="width:150px; height:150px; margin:0 auto;">
-            <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=XpHCbZ2DYRwFLha8mscJH_ikJF7DiHsFKPh5xv8bzaI"></script>
+            <script async type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=XpHCbZ2DYRwFLha8mscJH_ikJF7DiHsFKPh5xv8bzaI"></script>
         </div>
     </div>
 
@@ -789,13 +793,286 @@
         <tr>
         <td>
     
-            <p align="right">
+            <p align="right" data-i18n-html="footerTemplate">
                 Website template from <a href="https://github.com/jonbarron/website">Jon Barron</a>.
             </p>
             
         </td>
         </tr>
     </table>
+
+    <script>
+    (function () {
+        const translations = {
+            en: {
+                bio: `I am an <a href="https://www.schmidtsciences.org/ai-in-science/" target="_blank" rel="noopener">Eric and Wendy Schmidt AI in Science Postdoctoral Fellow</a> in the
+                    <a href="https://cde.nus.edu.sg/ece/" target="_blank" rel="noopener">Department of Electrical and Computer Engineering</a>,
+                    <a href="https://nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>.
+                    I received my Ph.D. degree in 2025 from the
+                    <a href="http://www.svm.tsinghua.edu.cn/" target="_blank" rel="noopener">School of Vehicle and Mobility</a>,
+                    <a href="https://www.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsinghua University</a>,
+                    under the supervision of Prof.
+                    <a href="https://scholar.google.com/citations?user=Dxiw1K8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Shengbo Eben Li</a>
+                    and Prof.
+                    <a href="http://www2.coe.pku.edu.cn/faculty/liuchang/author/chang-liu-%E5%88%98%E7%95%85/index.html" target="_blank" rel="noopener">Chang Liu</a>.
+                    I also received supervision from Prof.
+                    <a href="http://people.iiis.tsinghua.edu.cn/~jychen/" target="_blank" rel="noopener">Jianyu Chen</a>
+                    and Prof.
+                    <a href="https://homepages.math.uic.edu/~yau/" target="_blank" rel="noopener">Stephen S.-T. Yau</a>.
+                    During my Ph.D., I spent wonderful time as a visiting student at the University of Manchester,
+                    working with Prof. <a href="https://panweihit.github.io/" target="_blank" rel="noopener">Wei Pan</a>,
+                    and at the Technical University of Munich, working with Prof.
+                    <a href="https://www.ce.cit.tum.de/en/itr/hirche/" target="_blank" rel="noopener">Sandra Hirche</a>.`,
+                profileLinks: `<a href="mailto:wenhan_cao@outlook.com">Email</a> &nbsp;/&nbsp;
+                    <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=43xAy7MAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/wenhancao">Github</a> &nbsp;/&nbsp;
+                    <a href="https://www.researchgate.net/profile/Wenhan-Cao?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19">ResearchGate</a>`,
+                researchTitle: "Research Interests",
+                researchText: `My research lies at the intersection of learning and control, aiming to develop trustworthy autonomous systems. Simply put, I explore how AI can improve the performance of control systems, while leveraging control theory to ensure the reliability and predictability of AI-driven systems.`,
+                newsTitle: "News",
+                newsItems: `05/2026 - I am honored to be selected for the <a href="https://www.schmidtsciences.org/ai-in-science/" target="_blank" rel="noopener">Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship</a>.
+                            <br>
+                            03/2026 - Our paper: <a href="https://arxiv.org/abs/2410.15832">Nonlinear Bayesian Filtering with Natural Gradient Gaussian Approximation</a> has been accepted by IEEE TPAMI! Thanks to all the co-authors!
+                            <br>
+                            09/2025 - Our paper: <a href="https://neurips.cc/virtual/2025/poster/119149">One Filters All: A Generalist Filter For State Estimation</a> has been accepted by NeurIPS 2025!
+                            <br>
+                            06/2025 - Our paper: <a href="https://arxiv.org/abs/2411.11483">Robust State Estimation for Legged Robots with Dual Beta Kalman Filter</a> has been accepted by RA-L.
+                            <br>
+                            11/2024 - Our paper: <a href="https://arxiv.org/abs/2210.02166">Robust Bayesian Inference for Moving Horizon Estimation</a> has been accepted by Automatica.
+                            <br>
+                            08/2024 - Invited talk on <a href="https://drive.google.com/file/d/1O8qNHLxzhbikJ_4Ae-LQPQEzaFJre81U/view?usp=sharing">NANO filter: Bayesian Filtering with Natural Gradient Gaussian Approximation</a> at the Department of Astronomy, Tsinghua University, hosted by Prof. <a href="https://i.astro.tsinghua.edu.cn/~zcai/index.html">Zheng Cai</a>.
+                            <br>
+                            08/2024 - Our paper: <a href="https://ieeexplore.ieee.org/document/10643343">Convolutional Unscented Kalman Filter for Multi-Object Tracking with Outliers</a> is accepted by IEEE TIV.
+                            <br>
+                            05/2024 - Our paper: <a href="https://roboticsconference.org/program/papers/4/">Computation-Aware Learning for Stable Control with Gaussian Process</a> is accepted by RSS 2024!
+                            <br>
+                            05/2024 - I am happy to attend <a href="https://iclr.cc/">ICLR2024</a> in Vienna and meet all the excellent researchers. Here is our <a href="https://iclr.cc/virtual/2024/poster/17455">poster</a>.
+                            <br>
+                            04/2024 - I am happy to attend the <a href="https://probnumschool.org/pages/home.html">Probnum Spring School</a> in Southampton and meet all the excellent researchers.
+                            <br>
+                            02/2024 - Invited talk on <a href="https://drive.google.com/file/d/1vuGl7mLdf4Muuaur2buQaIbgiV8pHmTu/view?usp=sharing">Convolutional Bayesian Filtering</a> at the Department of Mathematical Sciences, Tsinghua University, hosted by Prof. <a href="https://homepages.math.uic.edu/~yau/">Stephen S.-T. Yau</a>.
+                            <br>
+                            01/2024 - Our paper: <a href="https://openreview.net/forum?id=xJEd8PkdNz&amp;nesting=2&amp;sort=date-desc">Impact of Computation in Integral Reinforcement Learning for Continuous-Time Control</a> has been accepted by ICLR 2024 as a <strong style="color:#B908C5">spotlight</strong> paper.
+                            <br>
+                            05/2023 - Our paper: <a href="https://arxiv.org/pdf/2201.09598.pdf">On the Optimization Landscape of Dynamic Output Feedback Linear Quadratic Control</a> has been accepted by IEEE TAC.
+                            <br>`,
+                publicationsTitle: "Selected Publications (* denotes equal contribution)",
+                publicationsIntro: `A full list of publications can be found in <a href="data/Publication_list_by_type.pdf">Publication List</a> or <a href="https://scholar.google.com/citations?hl=en&user=43xAy7MAAAAJ">Google Scholar Page</a>.`,
+                spotlightTag: "(spotlight)",
+                bestPaperFinalistTag: "(Student Best Paper Finalist)",
+                preprintsTitle: "Selected Preprints",
+                coinsStatus: `Under Review in IEEE Transactions on Robotics (<strong>T-RO</strong>)`,
+                marsStatus: `Under Review in Robotics: Science and Systems (<strong>RSS</strong>), 2026`,
+                convbfStatus: `Under Review in IEEE Transactions on Automatic Control (<strong>TAC</strong>)`,
+                projectsTitle: "Projects",
+                projectCavTitle: "Networked Modeling and Cooperative Control of Connected and Automated Electric Vehicles",
+                projectRladTitle: "Reinforcement Learning for Autonomous Driving Decision and Control on Open Roads",
+                projectGeekTitle: "State Estimation for Warehouse Automated Logistics Vehicles",
+                projectLeader: "Project Leader",
+                projectMember: "Project Member",
+                geekSupport: `Supported by <a href="https://www.geekplus.com/en/">Geek+</a> company, the technology has already been implemented in the company's product lineup`,
+                softwareTitle: "Software",
+                gopsDesc: "GOPS is an easy-to-use reinforcement learning (RL) solver package designed to build real-time, high performance controllers for industrial applications.",
+                gopsRole: `I was primarily responsible for the core design and implementation of the <strong>trainer</strong>, <strong>sampler</strong>, and <strong>buffer</strong> modules.`,
+                awardsTitle: "Awards",
+                awardsItems: `Study Abroad Fund from Tsinghua University 2022
+                            <br>
+                            Student Best Paper Finalist of Modeling, Estimation and Control Conference 2021
+                            <br>
+                            China National Scholarship 2016
+                            <br>
+                            The First Prize Scholarship from Beijing Jiaotong University 2016, 2017 & 2018`,
+                servicesTitle: "Services",
+                servicesItems: `Conference Reviewer: CDC, ACC, L4DC, ICLR, AAMAS & IFAC NMPC
+                            <br>
+                            Journal Reviewer: T-RO, TAC, Automatica, RA-L, T-ITS, T-ASE & TNNLS
+                            <br>`,
+                footerTemplate: `Website template from <a href="https://github.com/jonbarron/website">Jon Barron</a>.`
+            },
+            zh: {
+                bio: `我是 <a href="https://nus.edu.sg/" target="_blank" rel="noopener">新加坡国立大学（NUS）</a>
+                    <a href="https://cde.nus.edu.sg/ece/" target="_blank" rel="noopener">电子与计算机工程系</a>的
+                    <a href="https://www.schmidtsciences.org/ai-in-science/" target="_blank" rel="noopener">Eric and Wendy Schmidt AI in Science 博士后研究员</a>。
+                    我于 2025 年在
+                    <a href="http://www.svm.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学车辆与运载学院</a>
+                    获得博士学位，导师为
+                    <a href="https://scholar.google.com/citations?user=Dxiw1K8AAAAJ&amp;hl=en" target="_blank" rel="noopener">李升波</a>
+                    教授和
+                    <a href="http://www2.coe.pku.edu.cn/faculty/liuchang/author/chang-liu-%E5%88%98%E7%95%85/index.html" target="_blank" rel="noopener">刘畅</a>
+                    教授。博士期间，我也受到
+                    <a href="http://people.iiis.tsinghua.edu.cn/~jychen/" target="_blank" rel="noopener">陈建宇</a>
+                    教授和
+                    <a href="https://homepages.math.uic.edu/~yau/" target="_blank" rel="noopener">丘成栋</a>
+                    教授的指导。我曾作为访问学生在曼彻斯特大学与
+                    <a href="https://panweihit.github.io/" target="_blank" rel="noopener">潘为</a>
+                    教授合作，并在慕尼黑工业大学与
+                    <a href="https://www.ce.cit.tum.de/en/itr/hirche/" target="_blank" rel="noopener">Sandra Hirche</a>
+                    教授合作。`,
+                profileLinks: `<a href="mailto:wenhan_cao@outlook.com">邮箱</a> &nbsp;/&nbsp;
+                    <a href="data/CV.pdf">简历</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=43xAy7MAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/wenhancao">Github</a> &nbsp;/&nbsp;
+                    <a href="https://www.researchgate.net/profile/Wenhan-Cao?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19">ResearchGate</a>`,
+                researchTitle: "研究兴趣",
+                researchText: `我的研究位于学习与控制的交叉领域，目标是发展可信赖的自主系统。简而言之，我研究如何利用 AI 提升控制系统性能，同时借助控制理论保证 AI 驱动系统的可靠性与可预测性。`,
+                newsTitle: "新闻",
+                newsItems: `05/2026 - 我很荣幸入选 <a href="https://www.schmidtsciences.org/ai-in-science/" target="_blank" rel="noopener">Eric and Wendy Schmidt AI in Science 博士后研究员项目</a>。
+                            <br>
+                            03/2026 - 我们的论文 <a href="https://arxiv.org/abs/2410.15832">Nonlinear Bayesian Filtering with Natural Gradient Gaussian Approximation</a> 已被 IEEE TPAMI 接收！感谢所有合作者！
+                            <br>
+                            09/2025 - 我们的论文 <a href="https://neurips.cc/virtual/2025/poster/119149">One Filters All: A Generalist Filter For State Estimation</a> 已被 NeurIPS 2025 接收！
+                            <br>
+                            06/2025 - 我们的论文 <a href="https://arxiv.org/abs/2411.11483">Robust State Estimation for Legged Robots with Dual Beta Kalman Filter</a> 已被 RA-L 接收。
+                            <br>
+                            11/2024 - 我们的论文 <a href="https://arxiv.org/abs/2210.02166">Robust Bayesian Inference for Moving Horizon Estimation</a> 已被 Automatica 接收。
+                            <br>
+                            08/2024 - 应蔡峥教授邀请，我在清华大学天文系作报告：<a href="https://drive.google.com/file/d/1O8qNHLxzhbikJ_4Ae-LQPQEzaFJre81U/view?usp=sharing">NANO filter: Bayesian Filtering with Natural Gradient Gaussian Approximation</a>。
+                            <br>
+                            08/2024 - 我们的论文 <a href="https://ieeexplore.ieee.org/document/10643343">Convolutional Unscented Kalman Filter for Multi-Object Tracking with Outliers</a> 已被 IEEE TIV 接收。
+                            <br>
+                            05/2024 - 我们的论文 <a href="https://roboticsconference.org/program/papers/4/">Computation-Aware Learning for Stable Control with Gaussian Process</a> 已被 RSS 2024 接收！
+                            <br>
+                            05/2024 - 很高兴参加在维也纳举办的 <a href="https://iclr.cc/">ICLR 2024</a>，并与许多优秀研究者交流。这是我们的 <a href="https://iclr.cc/virtual/2024/poster/17455">海报</a>。
+                            <br>
+                            04/2024 - 很高兴参加在南安普顿举办的 <a href="https://probnumschool.org/pages/home.html">Probnum Spring School</a>，并与许多优秀研究者交流。
+                            <br>
+                            02/2024 - 应 Stephen S.-T. Yau 教授邀请，我在清华大学数学科学系作报告：<a href="https://drive.google.com/file/d/1vuGl7mLdf4Muuaur2buQaIbgiV8pHmTu/view?usp=sharing">Convolutional Bayesian Filtering</a>。
+                            <br>
+                            01/2024 - 我们的论文 <a href="https://openreview.net/forum?id=xJEd8PkdNz&amp;nesting=2&amp;sort=date-desc">Impact of Computation in Integral Reinforcement Learning for Continuous-Time Control</a> 被 ICLR 2024 接收为 <strong style="color:#B908C5">Spotlight</strong> 论文。
+                            <br>
+                            05/2023 - 我们的论文 <a href="https://arxiv.org/pdf/2201.09598.pdf">On the Optimization Landscape of Dynamic Output Feedback Linear Quadratic Control</a> 已被 IEEE TAC 接收。
+                            <br>`,
+                publicationsTitle: "代表性论文（* 表示共同一作）",
+                publicationsIntro: `完整论文列表见 <a href="data/Publication_list_by_type.pdf">Publication List</a> 或 <a href="https://scholar.google.com/citations?hl=en&user=43xAy7MAAAAJ">Google Scholar Page</a>。`,
+                spotlightTag: "(Spotlight)",
+                bestPaperFinalistTag: "(学生最佳论文候选)",
+                preprintsTitle: "代表性预印本",
+                coinsStatus: `投稿至 IEEE Transactions on Robotics (<strong>T-RO</strong>)，审稿中`,
+                marsStatus: `投稿至 Robotics: Science and Systems (<strong>RSS</strong>), 2026，审稿中`,
+                convbfStatus: `投稿至 IEEE Transactions on Automatic Control (<strong>TAC</strong>)，审稿中`,
+                projectsTitle: "项目",
+                projectCavTitle: "网联自动电动汽车建模与协同控制",
+                projectRladTitle: "开放道路自动驾驶决策与控制的强化学习",
+                projectGeekTitle: "仓储自动物流车状态估计",
+                projectLeader: "项目负责人",
+                projectMember: "项目成员",
+                geekSupport: `该项目由 <a href="https://www.geekplus.com/en/">Geek+</a> 公司支持，相关技术已应用于公司产品线。`,
+                softwareTitle: "软件",
+                gopsDesc: "GOPS 是一个易用的强化学习（RL）求解器软件包，面向工业应用中的实时高性能控制器构建。",
+                gopsRole: `我主要负责 <strong>trainer</strong>、<strong>sampler</strong> 和 <strong>buffer</strong> 模块的核心设计与实现。`,
+                awardsTitle: "奖励",
+                awardsItems: `清华大学出国交流基金，2022
+                            <br>
+                            Modeling, Estimation and Control Conference 学生最佳论文候选，2021
+                            <br>
+                            国家奖学金，2016
+                            <br>
+                            北京交通大学一等奖学金，2016、2017、2018`,
+                servicesTitle: "学术服务",
+                servicesItems: `会议审稿人：CDC、ACC、L4DC、ICLR、AAMAS、IFAC NMPC
+                            <br>
+                            期刊审稿人：T-RO、TAC、Automatica、RA-L、T-ITS、T-ASE、TNNLS
+                            <br>`,
+                footerTemplate: `网站模板来自 <a href="https://github.com/jonbarron/website">Jon Barron</a>。`
+            }
+        };
+
+        const linkLabels = {
+            en: {
+                paper: "[paper]",
+                poster: "[poster]",
+                recording: "[recording]",
+                code: "[code]",
+                slides: "[slides]",
+                project: "[project]",
+                docs: "[docs]"
+            },
+            zh: {
+                paper: "[论文]",
+                poster: "[海报]",
+                recording: "[录像]",
+                code: "[代码]",
+                slides: "[幻灯片]",
+                project: "[项目]",
+                docs: "[文档]"
+            }
+        };
+
+        function updateLinkLabels(language) {
+            document.querySelectorAll("a").forEach(function (link) {
+                const currentText = link.textContent.trim();
+                if (!link.dataset.labelKey) {
+                    Object.keys(linkLabels.en).forEach(function (key) {
+                        if (currentText === linkLabels.en[key] || currentText === linkLabels.zh[key]) {
+                            link.dataset.labelKey = key;
+                        }
+                    });
+                }
+
+                if (link.dataset.labelKey) {
+                    link.textContent = linkLabels[language][link.dataset.labelKey];
+                }
+            });
+        }
+
+        function setLanguage(language) {
+            const selectedLanguage = translations[language] ? language : "en";
+
+            document.documentElement.lang = selectedLanguage === "zh" ? "zh-CN" : "en";
+            document.querySelectorAll("[data-i18n]").forEach(function (element) {
+                const key = element.dataset.i18n;
+                if (translations[selectedLanguage][key]) {
+                    element.textContent = translations[selectedLanguage][key];
+                }
+            });
+
+            document.querySelectorAll("[data-i18n-html]").forEach(function (element) {
+                const key = element.dataset.i18nHtml;
+                if (translations[selectedLanguage][key]) {
+                    element.innerHTML = translations[selectedLanguage][key];
+                }
+            });
+
+            updateLinkLabels(selectedLanguage);
+
+            document.querySelectorAll("[data-lang-button]").forEach(function (button) {
+                button.setAttribute("aria-pressed", String(button.dataset.langButton === selectedLanguage));
+            });
+
+            try {
+                window.localStorage.setItem("homepageLanguage", selectedLanguage);
+            } catch (error) {
+                // Ignore storage errors in restricted browser contexts.
+            }
+        }
+
+        function getInitialLanguage() {
+            const urlLanguage = new URLSearchParams(window.location.search).get("lang");
+            if (urlLanguage === "zh" || urlLanguage === "en") {
+                return urlLanguage;
+            }
+
+            if (window.location.hash === "#zh") {
+                return "zh";
+            }
+
+            try {
+                return window.localStorage.getItem("homepageLanguage") || "en";
+            } catch (error) {
+                return "en";
+            }
+        }
+
+        document.querySelectorAll("[data-lang-button]").forEach(function (button) {
+            button.addEventListener("click", function () {
+                setLanguage(button.dataset.langButton);
+            });
+        });
+
+        setLanguage(getInitialLanguage());
+    }());
+    </script>
 
 </body>
 
