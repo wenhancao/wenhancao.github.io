@@ -1016,7 +1016,14 @@
             });
         }
 
-        function setLanguage(language) {
+        function updateLanguageUrl(language) {
+            const url = new URL(window.location.href);
+            url.searchParams.set("lang", language);
+            url.hash = "";
+            window.history.replaceState(null, "", url);
+        }
+
+        function setLanguage(language, shouldUpdateUrl) {
             const selectedLanguage = translations[language] ? language : "en";
 
             document.documentElement.lang = selectedLanguage === "zh" ? "zh-CN" : "en";
@@ -1045,6 +1052,10 @@
             } catch (error) {
                 // Ignore storage errors in restricted browser contexts.
             }
+
+            if (shouldUpdateUrl) {
+                updateLanguageUrl(selectedLanguage);
+            }
         }
 
         function getInitialLanguage() {
@@ -1066,7 +1077,7 @@
 
         document.querySelectorAll("[data-lang-button]").forEach(function (button) {
             button.addEventListener("click", function () {
-                setLanguage(button.dataset.langButton);
+                setLanguage(button.dataset.langButton, true);
             });
         });
 
