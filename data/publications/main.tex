@@ -1,0 +1,26 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage[sorting=none,giveninits=true,maxbibnames=100,style=numeric-comp,backend=biber,defernumbers=true]{biblatex}
+\addbibresource{list.bib}
+\addbibresource{preprint.bib}
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map[overwrite]{
+      \perdatasource{preprint.bib}
+      \step[fieldset=keywords,fieldvalue={pre}]
+    }
+  }
+}
+\setlength{\bibitemsep}{6pt}
+\title{Publication List}
+\author{Wenhan Cao}
+\date{Updated October 2026}
+\begin{document}
+\maketitle
+\nocite{*}
+\printbibliography[notkeyword={pre},title={Published and Accepted Papers (* denotes equal contribution)}]
+\printbibliography[keyword={pre},title={Preprints and Submissions}]
+\end{document}

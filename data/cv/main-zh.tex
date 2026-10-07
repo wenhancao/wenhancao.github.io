@@ -1,0 +1,174 @@
+% ======================================================================
+%  Wenhan Cao - Curriculum Vitae
+%  Compile with XeLaTeX (twice, for hyperlinks).
+% ----------------------------------------------------------------------
+%  Structure: each section uses small helper macros defined below, so
+%  adding a publication = copying one \pubitem{...}{...}{...}{...} block.
+% ======================================================================
+\documentclass[11pt,a4paper]{article}
+
+% ---------- packages ----------
+\usepackage[a4paper,margin=0.63in,top=0.7in,bottom=0.7in]{geometry}
+\usepackage[fontset=fandol]{ctex}
+\setmainfont{Latin Modern Roman}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true, urlcolor=NavyBlue, linkcolor=NavyBlue}
+\definecolor{NavyBlue}{RGB}{0,80,160}
+\usepackage{needspace}
+\usepackage{setspace}
+\usepackage{etoolbox}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{1em}
+
+% ================= PAGE MANAGEMENT =================
+% (a) Fill each page: \raggedbottom lets TeX stretch/shrink the elastic
+%     ("plus/minus") spacing defined below so every page bottom aligns.
+\flushbottom
+% (b) Never leave a section heading alone at the bottom of a page:
+%     require at least 4 lines of room before starting a section.
+\pretocmd{\section}{\Needspace*{4\baselineskip}}{}{}
+% (c) Density knob: one number controls how tight the CV is.
+%     0.8 = compact, 1.0 = normal, 1.3 = airy. Recompile after changing.
+\newcommand{\density}{1.0}
+% (d) Global line spacing: the biggest lever for filling the last page.
+%     1.00 = tight, ~1.10 = airy. Tune together with the font size (10/11pt).
+\setstretch{1.04}
+\newlength{\gapS}\setlength{\gapS}{4pt plus 3pt minus 1pt}  % between list items
+\newlength{\gapM}\setlength{\gapM}{6pt plus 4pt minus 2pt}  % between entries
+\setlength{\gapS}{\density\gapS}\setlength{\gapM}{\density\gapM}
+% ====================================================
+
+% ---------- section heading style ----------
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{-0.6em}\rule{\textwidth}{0.5pt}]
+\titlespacing*{\section}{0pt}{1.1em plus 1.2em minus 0.4em}{0.6em plus 0.3em minus 0.2em}
+
+% ---------- helper macros ----------
+% \entry{Institution}{Date}{Role (italic)}{Place (italic)}
+\newcommand{\entry}[4]{%
+  \begin{samepage}%
+  \textbf{#1} \hfill #2\par\nopagebreak
+  {\itshape #3} \hfill {\itshape #4}\par\nopagebreak
+  \end{samepage}}
+
+% \pubitem{Authors}{Title}{Venue}{Links}   (leave a field empty if unused)
+\newcommand{\pubitem}[4]{%
+  \item #1. \textit{#2}. #3.\ifx\relax#4\relax\else\ #4\fi}
+
+% \me  -> your bolded name in author lists
+\newcommand{\me}{\textbf{Wenhan Cao}}
+\newcommand{\mestar}{\textbf{Wenhan Cao}$^*$}
+
+% [Paper]-style link
+\newcommand{\plink}[2]{[\href{#2}{#1}]}
+
+% award line:  \award{Text}{Year}
+\newcommand{\award}[2]{#1 \hfill #2\par\vspace{2pt plus 2pt}}
+
+% publication list environment (hanging indent, tight spacing)
+% numbered list for publications: [1], [2], ...
+\newenvironment{publist}[1][{[\arabic*]}]{%
+  \begin{enumerate}[leftmargin=2.4em,labelsep=0.6em,label={#1},align=left,
+                    itemsep=\gapS,parsep=0pt,topsep=3pt plus 1pt]%
+  \interlinepenalty=10000\relax}% no page break inside a single reference
+  {\end{enumerate}}
+
+% ======================================================================
+\newcommand{\iclrstatus}{投稿至 ICLR 2027，审稿中}
+\newcommand{\tmecstatus}{投稿至 IEEE/ASME Transactions on Mechatronics (\textbf{T-MEC}), 2026，审稿中}
+\newcommand{\automaticastatus}{投稿至 Automatica，审稿中}
+\begin{document}
+\begin{center}
+  {\Huge\bfseries 曹文涵}\\[5pt]
+  {\large Wenhan Cao}\\[6pt]
+  \href{https://www.wenhancao.com}{www.wenhancao.com} \;|\;
+  \href{mailto:wenhan_cao@outlook.com}{wenhan\_cao@outlook.com} \;|\;
+  \href{https://scholar.google.com/citations?user=43xAy7MAAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\section{研究方向}
+我的研究致力于为\textbf{物理 AI 建立概率基础}，面向机器人、自动驾驶等必须在不确定世界中感知、决策与行动的具身系统。我发展学习、估计与控制方法，将不确定性从系统中的干扰因素转化为一等计算对象。我的长期目标是让概率成为可靠自主性的共同语言，使物理 AI 能够理解自身所知、适应自身未知，并赢得人类信任。
+
+\section{工作经历}
+\entry{新加坡国立大学}{2025 年 8 月 -- 至今}
+      {Eric and Wendy Schmidt AI in Science 博士后研究员\\电子与计算机工程系}{新加坡}
+合作导师：\href{https://sites.google.com/view/lzhao}{Lin Zhao 教授}
+
+\section{教育与访问经历}
+\entry{清华大学}{2019 年 9 月 -- 2025 年 6 月}
+      {博士，车辆与运载学院}{中国北京}
+导师：\href{https://scholar.google.com/citations?user=Dxiw1K8AAAAJ&hl=en}{李升波教授}、\href{http://www2.coe.pku.edu.cn/faculty/liuchang/}{刘畅教授}
+\vspace{\gapM}
+
+\entry{曼彻斯特大学}{2023 年 1 月 -- 2024 年 7 月}
+      {计算机科学方向，访问博士研究生}{英国曼彻斯特}
+合作导师：\href{https://panweihit.github.io/}{潘为教授}
+\vspace{\gapM}
+
+\entry{慕尼黑工业大学}{2023 年 9 月 -- 2023 年 12 月}
+      {优化与控制方向，研究访问}{德国慕尼黑}
+合作导师：\href{https://www.ce.cit.tum.de/en/itr/hirche/}{Sandra Hirche 教授}
+\vspace{\gapM}
+
+\entry{北京交通大学}{2015 年 9 月 -- 2019 年 6 月}
+      {工学学士，电气工程}{中国北京}
+成绩排名：1/305
+
+\section{代表性论文}
+{\small $^*$ 表示共同贡献。论文题目及作者姓名保留英文原文。完整列表见
+\href{https://www.wenhancao.com/data/Publication_list_by_type.pdf}{论文列表}或
+\href{https://scholar.google.com/citations?hl=en&user=43xAy7MAAAAJ}{Google Scholar}。}
+\input{publications.tex}
+
+\section{预印本与在审论文}
+\input{preprints.tex}
+
+\section{荣誉与奖励}
+\award{Eric and Wendy Schmidt AI in Science 博士后奖学金}{2026}
+\award{清华大学海外访学基金}{2022}
+\award{MECC 学生最佳论文奖入围}{2021}
+\award{国家奖学金}{2016}
+\award{北京交通大学一等奖学金}{2016、2017、2018}
+
+\section{开源软件}
+\textbf{General Optimal control Problems Solver (GOPS)}：面向工业应用、用于构建实时高性能控制器的强化学习求解器软件包。我主要负责 \textbf{trainer}、\textbf{sampler} 和 \textbf{buffer} 模块的核心设计与实现。
+\plink{文档}{https://gops.readthedocs.io/en/latest/index.html}
+\plink{代码}{https://github.com/Intelligent-Driving-Laboratory/GOPS}
+\plink{论文}{https://www.sciencedirect.com/science/article/pii/S2772424723000070}
+
+\section{代表性科研项目}
+\textbf{MindGPT 的强化学习后训练} \hfill 2024 年 11 月\par
+项目成员，理想汽车实习
+\vspace{\gapM}
+
+\textbf{开放道路自动驾驶决策与控制的强化学习方法} \hfill 2024 年 5 月\par
+项目成员；丰田与驭势科技支持。
+\vspace{\gapM}
+
+\textbf{仓储自动物流车辆的状态估计} \hfill 2022 年 5 月\par
+学生项目负责人；\href{https://www.geekplus.com/en/}{极智嘉（Geek+）}支持，相关技术已应用于公司产品。
+\vspace{\gapM}
+
+\textbf{网联自动驾驶电动车辆的网络化建模与协同控制} \hfill 2020 年 11 月\par
+学生项目负责人；科技部支持。
+
+\section{受邀报告}
+\begin{itemize}[leftmargin=1.4em,itemindent=-1.4em,labelsep=0pt,label={},itemsep=\gapS,parsep=0pt,topsep=3pt plus 1pt]
+\interlinepenalty=10000\relax
+\item \textit{NANO Filter: Bayesian Filtering with Natural Gradient Gaussian Approximation}。清华大学天文系，中国北京；蔡峥教授邀请，2024 年 8 月。
+\item \textit{Convolutional Bayesian Filtering}。清华大学数学科学系，中国北京；丘成栋教授邀请，2024 年 2 月。
+\item \textit{Learning-based State Estimation Methods}。慕尼黑工业大学，德国慕尼黑（线上）；Sandra Hirche 教授邀请，2023 年 2 月。
+\end{itemize}
+
+\section{教学经历}
+\textbf{清华大学车辆与运载学院} \hfill 2022 年 2 月 -- 2022 年 5 月\par
+课程助教：150051 智能汽车（Intelligent Vehicles）
+
+\section{学术服务}
+\textbf{会议审稿：} NeurIPS、ICML、ICLR、AAMAS、L4DC、CDC、ACC、IFAC NMPC\par
+\vspace{2pt}
+\textbf{期刊审稿：} TPAMI、T-RO、T-RL、TAC、Automatica、RA-L、T-ITS、T-ASE、TII、TNNLS
+\end{document}
