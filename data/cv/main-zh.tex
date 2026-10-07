@@ -63,8 +63,14 @@
 \newcommand{\me}{\textbf{Wenhan Cao}}
 \newcommand{\mestar}{\textbf{Wenhan Cao}$^*$}
 
-% [Paper]-style link
-\newcommand{\plink}[2]{[\href{#2}{#1}]}
+% Translate shared publication link labels only in the Chinese CV.
+\csdef{cvlink@Paper}{论文}
+\csdef{cvlink@Code}{代码}
+\csdef{cvlink@Poster}{海报}
+\csdef{cvlink@Slides}{幻灯片}
+\csdef{cvlink@Recording}{报告录像}
+\csdef{cvlink@Project}{项目主页}
+\newcommand{\plink}[2]{[\href{#2}{\ifcsdef{cvlink@#1}{\csuse{cvlink@#1}}{#1}}]}
 
 % award line:  \award{Text}{Year}
 \newcommand{\award}[2]{#1 \hfill #2\par\vspace{2pt plus 2pt}}
@@ -78,7 +84,7 @@
   {\end{enumerate}}
 
 % ======================================================================
-\newcommand{\acceptedpending}{已接收，卷期页码待刊出}
+\newcommand{\acceptedpending}{已接收}
 \newcommand{\earlyaccess}{在线优先出版}
 \newcommand{\iclrstatus}{投稿至 ICLR 2027，审稿中}
 \newcommand{\tmecstatus}{投稿至 IEEE/ASME Transactions on Mechatronics (\textbf{T-MEC}), 2026，审稿中}
@@ -89,7 +95,7 @@
   {\large Wenhan Cao}\\[6pt]
   \href{https://www.wenhancao.com}{www.wenhancao.com} \;|\;
   \href{mailto:wenhan_cao@outlook.com}{wenhan\_cao@outlook.com} \;|\;
-  \href{https://scholar.google.com/citations?user=43xAy7MAAAAJ&hl=en}{Google Scholar}
+  \href{https://scholar.google.com/citations?user=43xAy7MAAAAJ&hl=en}{谷歌学术}
 \end{center}
 
 \section{研究方向}
@@ -124,7 +130,7 @@
 \section{代表性论文}
 {\small $^*$ 表示共同贡献。论文题目及作者姓名保留英文原文。完整列表见
 \href{https://www.wenhancao.com/data/Publication_list_by_type.pdf}{论文列表}或
-\href{https://scholar.google.com/citations?hl=en&user=43xAy7MAAAAJ}{Google Scholar}。}
+\href{https://scholar.google.com/citations?hl=en&user=43xAy7MAAAAJ}{谷歌学术}。}
 \input{publications.tex}
 
 \section{预印本与在审论文}
