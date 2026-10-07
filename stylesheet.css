@@ -217,6 +217,14 @@ h4{
 ul {
   margin: 0;
 }
+.preprint-thumbnail {
+  display: block;
+  width: 100%;
+  max-width: 245px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .image-hover-container {
   position: relative;
   width: 100%;
